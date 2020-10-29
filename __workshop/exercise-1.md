@@ -10,9 +10,25 @@ Provide him with a series of REST endpoints that meet all, or most of the RESTfu
 
 Write out each endpoint, its method, and brief description of waht it should do.
 
-| endpoint | method | Description            |
-| -------- | ------ | ---------------------- |
-| `/test`  | `GET`  | It is a test endpoint. |
+| endpoint        | method   | Description            |
+| --------------- | -------- | ---------------------- |
+| `/test`         | `GET`    | It is a test endpoint. |
+| `/`             | `GET`    | homepage for info      |
+| `/stock`        | `GET`    | access stock list      |
+| `/stock`        | `POST`   | add new stock          |
+| `/stock/id`     | `GET`    | access stock item      |
+| `/stock/id`     | `PATCH`  | edit info in item      |
+| `/stock/id`     | `DELETE` | delete stock item      |
+| `/customers`    | `GET`    | get customer info      |
+| `/customers`    | `POST`   | add a new customer     |
+| `/customers/id` | `GET`    | get specific customer  |
+| `/customers/id` | `PATCH`  | edit customer info     |
+| `/customers/id` | `DELETE` | delete customer        |
+| `/seating`      | `GET`    | access seating list    |
+| `/seating`      | `POST`   | add new seating        |
+| `/seating/id`   | `GET`    | get specific table     |
+| `/seating/id`   | `PATCH`  | edit the seating info  |
+| `/seating/id`   | `DELETE` | delete current seating |
 
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
